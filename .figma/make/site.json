@@ -1,0 +1,10 @@
+{
+  "description": "AURA equilibrio is an AI-driven academic assistant designed to enhance university students' organization and productivity, helping them manage their schedules effectively.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
