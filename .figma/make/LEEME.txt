@@ -1,0 +1,35 @@
+=====================================================
+  INSTRUCCIONES DE CONFIGURACIÓN Y EJECUCIÓN
+=====================================================
+
+1. INSTALAR NODE.JS
+-----------------------------------------------------
+Antes de empezar, necesitas tener instalado Node.js en tu sistema:
+- Descárgalo desde el sitio oficial: https://nodejs.org/
+- Se recomienda descargar la versión LTS (Recomendada para la mayoría).
+- Ejecuta el instalador y sigue los pasos por defecto (haz clic en "Siguiente" / "Next" hasta finalizar).
+
+Para verificar que quedó bien instalado:
+- Abre una terminal (PowerShell o CMD) y ejecuta:
+    node -v
+    npm -v
+(Ambos comandos deben devolver el número de versión).
+
+
+2. PRIMERA CONFIGURACIÓN DEL PROYECTO
+-----------------------------------------------------
+Una vez instalado Node.js, abre la terminal dentro de la carpeta del proyecto en VS Code y ejecuta:
+
+    npm install
+
+Este comando instalará automáticamente todas las librerías y dependencias necesarias.
+
+
+3. EJECUTAR LA APLICACIÓN
+-----------------------------------------------------
+Para levantar el servidor local de desarrollo y ver el prototipo:
+
+    npm run dev
+
+Abre la URL que aparezca en la terminal (generalmente es Local:   http://localhost:8443/ ) CTRL+clic sobre ese link para hacer funcionar la interfaz
+=====================================================
